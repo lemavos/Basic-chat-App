@@ -1,0 +1,22 @@
+{
+    "1": {
+        "password": "1",
+        "username": "ADMIN_1"
+    },
+    "2": {
+        "password": "2",
+        "username": "ADMIN_2"
+    },
+    "3": {
+        "password": "3",
+        "username": "ADMIN_3"
+    },
+    "4": {
+        "password": "4",
+        "username": "ADMIN_4"
+    },
+    "5": {
+        "password": "5",
+        "username": "ADMIN_5"
+    }
+}
