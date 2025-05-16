@@ -10,4 +10,4 @@ If you want to run this code, you will have to run `pip install cusomtkinter` on
 - socket
 - threading
 - customtkinter 
-Caso queira rodar esse codigo você tera que instalar a lib do customtkinter (CTk)
+Caso queira rodar esse codigo você tera que rodar `pip install cusomtkinter` no terminal
