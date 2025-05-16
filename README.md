@@ -2,7 +2,7 @@
 - socket 
 - threading 
 - customtkinter 
-If you want to run this code, you will have to install the customtkinter (CTk) lib.
+If you want to run this code, you will have to run `pip install cusomtkinter` on terminal
 
 ‎ 
 
