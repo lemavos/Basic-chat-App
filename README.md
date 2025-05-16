@@ -40,7 +40,7 @@ This is a basic chat application written in Python using sockets. It allows mult
 4. In another terminal, run one or more clients:
    ```bash
    cd client
-   python3 client.py
+   python3 main.py
    ```
 
 5. Enter your name when prompted and start chatting!
