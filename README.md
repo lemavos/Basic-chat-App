@@ -40,7 +40,7 @@
 
 4. In another terminal, run the client:
    ```bash
-   python3 client.py
+   python3 main.py
    ```
 
 ### On Windows
@@ -59,7 +59,7 @@
 
 4. In another Command Prompt window, run the client:
    ```cmd
-   python client.py
+   python main.py
    ```
 
 ## Example Usage
