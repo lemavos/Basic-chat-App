@@ -1,55 +1,76 @@
-# Basic Chat App in Python
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Basic Chat App
 
-This is a basic chat application written in Python using sockets. It allows multiple clients to connect to a server and exchange messages in real-time. The server listens for connections, and each client can send messages that will be broadcast to all connected clients.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+![Python](https://img.shields.io/badge/Python-Programming-blue.svg) ![OOP](https://img.shields.io/badge/Object--Oriented%20Programming-green.svg)
 
-## 🚀 Features
+## Features
 
-- Real-time communication between clients
-- Multi-client support
-- Simple and minimalistic terminal interface
-- Educational example for learning sockets in Python
+- Simple console-based chat application using Python.
+- Server-client architecture with socket programming.
+- Object-Oriented design with separate classes for server and client.
+- Multi-client support through threading.
 
-## 🧑‍💻 Technologies Used
+## Technologies Used
 
-- `socket`
-- `threading`
+- Python 3.x
+- Socket Programming
+- Threading
 
-## 📋 How to Run
+## How to Run
 
-### 🐧 On Linux / 🪟 On Windows:
+### On Linux
 
-1. Make sure you have Python 3 installed.
+1. Ensure Python 3.x is installed:
    ```bash
-   python3 --version
+   sudo apt update
+   sudo apt install python3
    ```
 
-2. Clone the repository:
+2. Clone the repository and navigate to the project folder:
    ```bash
-   git clone https://github.com/Henriquelemos911/Basic-chat-App.git
+   git clone https://github.com/lemavos/Basic-chat-App.git
    cd Basic-chat-App
    ```
 
 3. Run the server:
    ```bash
-   cd server
    python3 server.py
    ```
 
-4. In another terminal, run one or more clients:
+4. In another terminal, run the client:
    ```bash
-   cd client
-   python3 main.py
+   python3 client.py
    ```
 
-5. Enter your name when prompted and start chatting!
+### On Windows
 
-## 🤖 How It Works
+1. Install Python 3.x from the official website and add it to your system PATH.
 
-- The server creates a socket and listens on port `55555` for incoming connections.
-- Each client connects to the server and starts a new thread to handle sending and receiving messages.
-- Messages sent by any client are broadcast to all connected clients.
+2. Open Command Prompt and navigate to the project folder:
+   ```cmd
+   cd C:\path\to\Basic-chat-App
+   ```
+
+3. Run the server:
+   ```cmd
+   python server.py
+   ```
+
+4. In another Command Prompt window, run the client:
+   ```cmd
+   python client.py
+   ```
+
+## Example Usage
+
+```text
+Client 1: Hello, is anyone there?
+Client 2: Yes, I'm here! This is a basic chat.
+Client 3: Cool, it works across multiple clients.
+```
+
+---
 
 ## 📄 License
 
