@@ -13,7 +13,7 @@
 
 ## Technologies Used
 
-- Python 3.x
+- Python 3.13
 - Socket Programming
 - Threading
 
