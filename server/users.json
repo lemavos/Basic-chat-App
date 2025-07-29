@@ -18,5 +18,13 @@
     "5": {
         "password": "5",
         "username": "ADMIN_5"
+    },
+    "rickk@gmail.com": {
+        "username": "rickk",
+        "password": "123456789h"
+    },
+    "vk@gmail.com": {
+        "username": "victorrrrrr",
+        "password": "987654321h"
     }
 }
