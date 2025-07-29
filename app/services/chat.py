@@ -1,5 +1,5 @@
 from customtkinter import *
-from frames.main.utils import *
+from app.services.utils import *
 import socket
 import threading
 import json

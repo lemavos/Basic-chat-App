@@ -1,5 +1,5 @@
 from customtkinter import *
-from frames.main.utils import *
+from app.services.utils import *
 
 def show_test_root(root, show_root):
     frame = CTkFrame(root)

@@ -1,7 +1,7 @@
 import os
 import json
 from customtkinter import *
-from frames.main.utils import update_widget_colors
+from app.services.utils import update_widget_colors
 
 CONFIGURES_FILE = os.path.join("frames", "configures", "configures.json")
 

@@ -1,11 +1,11 @@
 from customtkinter import *
-from frames.main.login import show_login_root
-from frames.main.register import show_register_root
-from frames.main.lobby import show_lobby_root
-from frames.services.chat import show_chat_root
-from frames.services.configures import show_configures_root
-from frames.services.rootest import show_test_root
-from frames.configures.theme_configure import show_theme_configure_root, get_color_theme
+from app.frames.login import show_login_root
+from app.frames.register import show_register_root
+from app.frames.lobby import show_lobby_root
+from app.services.chat import show_chat_root
+from app.frames.configures import show_configures_root
+from app.frames.rootest import show_test_root
+from app.frames.theme_configure import show_theme_configure_root, get_color_theme
 
 def show_root(root, frames, current_frame):
     if current_frame[0]:

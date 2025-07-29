@@ -1,6 +1,6 @@
 from customtkinter import *
-from frames.configures.theme_configure import show_theme_configure_root
-from frames.main.utils import remove_cache
+from app.frames.theme_configure import show_theme_configure_root
+from app.services.clear_cache import remove_cache
 
 def show_configures_root(root, show_root):
     frame = CTkFrame(root, fg_color="transparent")

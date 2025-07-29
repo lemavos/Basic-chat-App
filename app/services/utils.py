@@ -3,7 +3,7 @@ import os
 from customtkinter import *
 
 # Configurações de caminhos
-BASE_DIR = "."
+
 USERS_FILE = os.path.join("server", "users.json")
 LOCAL_USER_FILE = os.path.join("data", "local_user.json")
 CONFIGURES_FILE = os.path.join("frames", "configures", "configures.json")
@@ -189,18 +189,6 @@ def receive_messages(client_socket, text_widget=None):
         except Exception as e:
             print(f"Error receiving message: {e}")
             break
-        
-def remove_cache():
-    """Remove arquivos de cache (.pyc)"""
-    for root, dirs, files in os.walk(BASE_DIR):
-        for file in files:
-            if file.endswith(".pyc"):
-                file_path = os.path.join(root, file)
-                try:
-                    os.remove(file_path)
-                    print(f"Removed: {file_path}")
-                except Exception as e:
-                    print(f"Error removing {file_path}: {e}")
 
 def apply_theme(root, theme=None):
     """Aplica o tema a toda a aplicação"""
