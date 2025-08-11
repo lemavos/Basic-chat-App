@@ -4,6 +4,20 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 ![Python](https://img.shields.io/badge/Python-Programming-blue.svg) ![OOP](https://img.shields.io/badge/Object--Oriented%20Programming-green.svg)
 
+# Discontinuation Notice
+
+⚠️ **This project has been discontinued.**
+
+Development has been migrated to a new **Java** version for better performance and maintainability.
+
+To continue following the project, please visit the latest Java repository:
+
+[Link to the new Java repository](https://github.com/lemavos/Chat-App)
+
+The project still alive but with some bugs.
+
+---
+
 ## Features
 
 - Simple console-based chat application using Python.
